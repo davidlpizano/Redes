@@ -17,7 +17,6 @@
 
 Este repositorio es mi laboratorio personal y portafolio de **Administración de Redes**. Aquí documento mis prácticas, configuraciones y resoluciones de problemas en entornos de red simulados y reales como parte de mi formación en **ASIR** (Administración de Sistemas Informáticos en Red) y mi preparación para la certificación **Cisco CCNA 1**.
 
-Mi objetivo es demostrar no solo que sé aplicar comandos, sino que **entiendo la arquitectura de red subyacente**, la lógica del enrutamiento y las buenas prácticas de seguridad desde el diseño inicial.
 
 ---
 
@@ -39,9 +38,11 @@ El repositorio está organizado por tecnologías y conceptos de red:
 - Primeros pasos con enrutamiento dinámico (OSPF, RIPv2).
 - Listas de Control de Acceso (ACLs) estándar y extendidas.
 
+<!-- 
 ### 4. 🛠️ Servicios de Red
 - Configuración de servidores **DHCP** y **DNS** en simulador.
 - Traducción de Direcciones de Red (**NAT / PAT**).
+-->
 
 ---
 
