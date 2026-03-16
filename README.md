@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1BA0D7&height=200&section=header&text=Networking%20Lab&fontSize=50&fontColor=ffffff&animation=fadeIn" alt="Redes Banner">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1BA0D7&height=200&section=header&text=Networking%20Lab&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=David%20Lopez%20%7C%20ASIR&descSize=20&descAlign=50&descAlignY=62&descColor=ffffff" alt="Redes Banner">
 
 **Configuración de equipos Cisco, diseño de topologías, enrutamiento y switching.**
 
