@@ -1,7 +1,5 @@
 <div align="center">
 
-# 📡 Prácticas de Redes - ASIR
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1BA0D7&height=200&section=header&text=Networking%20Lab&fontSize=50&fontColor=ffffff&animation=fadeIn" alt="Redes Banner">
 
 **Configuración de equipos Cisco, diseño de topologías, enrutamiento y switching.**
