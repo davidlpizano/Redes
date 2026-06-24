@@ -49,23 +49,23 @@ El repositorio está organizado por tecnologías y conceptos de red:
 Los conceptos de este repositorio los aplico en mi infraestructura real:
 
 ```
-Internet ──► Router 192.168.1.1 ──► UGREEN NAS 192.168.1.3
-                                         │
-                                         ├── Pi-hole (DNS local + ad-blocking)
-                                         ├── Nginx Proxy Manager (reverse proxy)
-                                         │     └── Wildcard SSL *.dlplab.es
-                                         ├── Uptime Kuma (monitorización de red)
-                                         └── +15 servicios por subdominios HTTPS
+Internet ──► Router ──► UGREEN NAS (Docker)
+                              │
+                              ├── Pi-hole (DNS local + ad-blocking)
+                              ├── Nginx Proxy Manager (reverse proxy)
+                              │     └── Wildcard SSL por subdominios
+                              ├── Uptime Kuma (monitorización de red)
+                              └── +15 servicios por subdominios HTTPS
 ```
 
 | Concepto de red | Aplicación real en el homelab |
 | :--- | :--- |
 | **DNS** | Pi-hole como servidor DNS local para toda la red, filtrando publicidad |
 | **Reverse Proxy** | Nginx Proxy Manager redirigiendo subdominios a puertos internos |
-| **SSL/TLS** | Certificado wildcard `*.dlplab.es` para cifrado HTTPS en todos los servicios |
-| **Subnetting** | Red local 192.168.1.0/24 con IP fija en el NAS |
+| **SSL/TLS** | Certificado wildcard para cifrado HTTPS en todos los servicios |
+| **Subnetting** | Red local con IP fija asignada al NAS |
 | **Monitorización** | Uptime Kuma comprobando disponibilidad + Prometheus/Grafana para métricas de red |
-| **Port forwarding** | Puertos 80/443 redirigidos al NAS para acceso externo |
+| **Port forwarding** | Puertos redirigidos al NAS para acceso externo |
 
 ---
 
